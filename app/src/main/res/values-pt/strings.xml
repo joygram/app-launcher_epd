@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Simple App Launcher</string>
+    <string name="app_launcher_name">Lançador de aplicações</string>
+    <string name="enter_launcher_name">Por favor digite um nome para o lançador</string>
+    <string name="remove_explanation">Esta ação remove o ícone da grelha mas não desinstala a aplicação.</string>
+    <string name="close_app">Fechar esta aplicação depois de abrir outra</string>
+
+    <!-- Apps -->
+    <string name="calculator">Calculadora</string>
+    <string name="calendar">Calendário</string>
+    <string name="camera">Câmara</string>
+    <string name="clock">Relógio</string>
+    <string name="contacts">Contactos</string>
+    <string name="draw">Desenho</string>
+    <string name="file_manager">Gestor de ficheiros</string>
+    <string name="flashlight">Lanterna</string>
+    <string name="gallery">Galeria</string>
+    <string name="music_player">Reprodutor de músicas</string>
+    <string name="notes">Notas</string>
+    <string name="thank_you">Thank You</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">Uma pasta para guardar lançadores de aplicações.</string>
+    <string name="app_long_description">
+        Pode adicionar qualquer lançador, de modo a que não seja necessário procurar por todas as aplicações instaladas no seu sistema. Também pode renomear os lançadores ao seu gosto. Esta aplicação não é um \'launcher\', mas sim um local para você guardar as suas aplicações preferidas.
+
+        Não contém anúncios nem permissões desnecessárias. Disponibiliza um tema escuro e é totalmente \'open source\'.
+
+        Esta aplicação é apenas parte de um conjunto mais vasto de aplicações. Saiba mais em https://www.simplemobiletools.com
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

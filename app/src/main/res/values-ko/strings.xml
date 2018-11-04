@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">런처 EPD</string>
+    <string name="app_launcher_name">런처 EPD</string>
+    <string name="enter_launcher_name">런처이름을 입력하세요</string>
+    <string name="remove_explanation">앱을 삭제하지 않고 감추기만 합니다.</string>
+    <string name="close_app">실행시 종료</string>
+
+    <!-- Apps -->
+    <string name="calculator">Calculator</string>
+    <string name="calendar">Calendar</string>
+    <string name="camera">Camera</string>
+    <string name="clock">Clock</string>
+    <string name="contacts">Contacts</string>
+    <string name="draw">Draw</string>
+    <string name="file_manager">File Manager</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="gallery">Gallery</string>
+    <string name="music_player">Music Player</string>
+    <string name="notes">Notes</string>
+    <string name="thank_you">Thank You</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">앱 즐겨찾기</string>
+    <string name="app_long_description">
+        You can easily add any app launcher, so you won\'t ever again have to swipe through useless apps to find the one you need. You can also rename the launchers as you wish. It is not a real launcher replacing your home screen, just a holder for your favourite apps.
+
+        Contains no ads or unnecessary permissions. It is fully opensource, provides customizable colors.
+
+        This app is just one piece of a bigger series of apps. You can find the rest of them at https://www.simplemobiletools.com
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>

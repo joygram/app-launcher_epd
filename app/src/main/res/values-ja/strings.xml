@@ -1,0 +1,37 @@
+﻿<resources>
+    <string name="app_name">シンプル アプリ ランチャー</string>
+    <string name="app_launcher_name">アプリ ランチャー</string>
+    <string name="enter_launcher_name">ランチャーの名前を入力してください</string>
+    <string name="remove_explanation">この操作は実際のアプリをアンインストールするのではなく、一覧からアプリのアイコンを削除するだけです。</string>
+    <string name="close_app">別のアプリを起動するときにこのアプリを閉じる</string>
+
+    <!-- Apps -->
+    <string name="calculator">電卓</string>
+    <string name="calendar">カレンダー</string>
+    <string name="camera">カメラ</string>
+    <string name="clock">時計</string>
+    <string name="contacts">連絡先</string>
+    <string name="draw">ドロー</string>
+    <string name="file_manager">ファイルマネージャー</string>
+    <string name="flashlight">フラッシュライト</string>
+    <string name="gallery">ギャラリー</string>
+    <string name="music_player">ミュージックプレイヤー</string>
+    <string name="notes">メモ</string>
+    <string name="thank_you">Thank You</string>
+
+    <!-- Strings displayed only on Google Playstore. Optional, but good to have -->
+    <!-- Short description has to have less than 80 chars -->
+    <string name="app_short_description">お気に入りのアプリランチャーのためのシンプルなホルダー。</string>
+    <string name="app_long_description">
+        アプリランチャーを簡単に追加できるので、必要なものを見つけるために無駄なアプリをまたスワイプする必要はありません。 ランチャーの名前を変更することもできます。 単なるお気に入りのアプリのホルダーで、ホーム画面を置き換えるものではありません。
+
+        広告や不要なアクセス許可は含まれていません。 完全にオープンソースで、ダークテーマも提供しています。
+
+        このアプリは、大きな一連のアプリの一つです。 他のアプリは https://www.simplemobiletools.com で見つけることができます
+    </string>
+
+    <!--
+        Haven't found some strings? There's more at
+        https://github.com/SimpleMobileTools/Simple-Commons/tree/master/commons/src/main/res
+    -->
+</resources>
