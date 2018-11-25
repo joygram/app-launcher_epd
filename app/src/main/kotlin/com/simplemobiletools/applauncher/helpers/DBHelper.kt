@@ -50,19 +50,19 @@ class DBHelper private constructor(val context: Context) : SQLiteOpenHelper(cont
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
-        if (oldVersion < 3) {
-            val contacts = AppLauncher(0, context.getString(R.string.contacts), "com.simplemobiletools.contacts")
-            addAppLauncher(contacts, db)
-        }
-
-        if (oldVersion < 4) {
-            val clock = AppLauncher(0, context.getString(R.string.clock), "com.simplemobiletools.clock")
-            addAppLauncher(clock, db)
-        }
-
-        if (oldVersion < 5) {
-            db.execSQL("ALTER TABLE $MAIN_TABLE_NAME ADD COLUMN $COL_WAS_RENAMED INTEGER NOT NULL DEFAULT 0")
-        }
+//        if (oldVersion < 3) {
+//            val contacts = AppLauncher(0, context.getString(R.string.contacts), "com.simplemobiletools.contacts")
+//            addAppLauncher(contacts, db)
+//        }
+//
+//        if (oldVersion < 4) {
+//            val clock = AppLauncher(0, context.getString(R.string.clock), "com.simplemobiletools.clock")
+//            addAppLauncher(clock, db)
+//        }
+//
+//        if (oldVersion < 5) {
+//            db.execSQL("ALTER TABLE $MAIN_TABLE_NAME ADD COLUMN $COL_WAS_RENAMED INTEGER NOT NULL DEFAULT 0")
+//        }
     }
 
     private fun addInitialLaunchers(db: SQLiteDatabase) {
@@ -70,8 +70,8 @@ class DBHelper private constructor(val context: Context) : SQLiteOpenHelper(cont
                 R.string.settings,
                 R.string.eink,
                 R.string.mobest,
-  //              R.string.epdparam,
-                R.string.chrome,
+ //              R.string.epdparam,
+ //               R.string.chrome,
                 R.string.mirror
         )
 
